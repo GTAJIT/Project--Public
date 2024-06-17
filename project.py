@@ -9,6 +9,10 @@
 # print (s_new)
 # r = s[4:10]
 # print (r)
-name = input("write: ")
-age = input("write: ")
+# name = input("write: ")
+# age = input("write: ")
 # print ("hello",name,"!","my age",age,"!")
+a = 0
+while a >= 0:
+    a += 1
+    print(a)
