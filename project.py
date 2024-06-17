@@ -13,6 +13,6 @@
 # age = input("write: ")
 # print ("hello",name,"!","my age",age,"!")
 a = 0
-while a >= 0:
+while a>=0:
     a += 1
     print(a)
