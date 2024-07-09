@@ -5,15 +5,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dating App</title>
+    <title>HeartLinker</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Logo</a></li>
-                <li><a href="#">Settings</a></li>
+                <li><a href="#">
+                    <video width="50" height="100" loop controls="false" autoplay muted id="video" style="border-radius: 500px; overflow: hidden;">
+                        <source src="https://cdn.dribbble.com/userupload/12077790/file/original-34c6968dd32f16179f0d88c9a8059112.mp4" type="video/mp4" alt="Logo">
+                    </video>
+                </a></li>
+                <!-- <li><a href="#">Settings</a></li> -->
             </ul>
         </nav>
     </header>
@@ -28,9 +32,10 @@
 
 <!-- Card template -->
 <div class="card" id="card-template">
-    <img src="https://3.bp.blogspot.com/__F0qYjhei78/TIl7rSyGnJI/AAAAAAAANjQ/hLNgnNDNGrA/s400/3.jpg" alt="Profile picture">
+    <img style="display: block;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://3.bp.blogspot.com/__F0qYjhei78/TIl7rSyGnJI/AAAAAAAANjQ/hLNgnNDNGrA/s400/3.jpg" alt="Profile picture">
     <h2></h2>
     <p></p>
     <button class="like-btn">Like</button>
     <button class="dislike-btn">Dislike</button>
 </div>
+<!-- <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" -->
